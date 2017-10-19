@@ -1,0 +1,59 @@
+body {
+	background: url('../images/Background2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+.Start {
+	margin-top: 10%;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	border: 1px solid #054ebd;
+	background-color: #82c3e2;
+ 	border-radius: 10px;
+}
+
+.display {
+	background-color: rgba(217, 217, 217, 0.7);
+ 	margin-top: 10%;
+ 	height: 500px;
+ 	border-radius: 10px;
+ 	border-color: 2px solid black;
+}
+.Timer {
+	text-align: center;
+}
+.Question {
+	text-align: center;
+}
+
+.Answer {
+	text-align: center;
+	align-content: center;
+
+}
+
+.Button {
+	text-align: center;
+}
+
+.AnswerScreenImg {
+	margin: auto;
+}
+.Aswr {
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+	border-radius: 5px;
+	border-color: 1px solid #054ebd;
+}
+.Aswr:hover {
+	background-color: rgba(39, 136, 226, 0.7);
+}
+
+

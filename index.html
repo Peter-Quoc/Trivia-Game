@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+		<!--Linking Bootstrap and CSS sheets-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<head>
+	<title>Trivia!</title>
+</head>
+<body>
+	<audio id="themeSong">
+		<source src="assets/images/Friends.mp3" type="audio/mp3">
+	</audio>
+	
+	<div class="row">
+		<div class = "col-md-2"></div>
+		<div class = "col-md-8 display">
+			<div class = "row BoxTitle"><h1>Trivia Game!</h1></div>
+			<div class = "row Timer"><h2></h2></div>
+			<div class = "row Question"><br></div>
+			<div class = "row Answer"></div>
+			<div class = "row Button">
+				<button class = "Start">Start</button>
+			</div>
+		</div>
+		<div class = "col-md-2"></div>
+	</div>
+	 	<!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!--Linking JS Game -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
